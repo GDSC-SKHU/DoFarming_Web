@@ -1,0 +1,160 @@
+/* login 1 */
+
+body {
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.login1_wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    height: 80vh;
+    text-align: left;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.maintxt {
+    text-align: left;
+    margin-top: 4vh;
+    margin-left: 92vh;
+    margin-bottom: 0.2vh;
+}
+
+.txt1 {
+    font-size: 2.5rem;
+    width: 70vw;
+    font-weight: 730;
+    margin-bottom: 0.65vh;
+    letter-spacing: 1.5px;
+    margin-top: 2.5vh;
+    line-height: 3.2rem;
+    white-space: pre-line;
+}
+
+.txt2 {
+    position: relative;
+    bottom: 6vh;
+    font-size: 0.625rem;
+    width: 40vw;
+    margin-top: 8vh;
+    line-height: 2.2vh;
+    letter-spacing: 0.2px;
+}
+
+#login1_submit_btn {
+    padding: 2.3vh;
+    font-size: 1.25rem;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #bfbaba;
+    border-radius: 50px;
+    margin-bottom: 10vh;
+    width: 25vw;
+    align-items: center;
+    margin: 10vh auto;
+}
+
+@media screen and (max-width: 768px) {
+    .maintxt {
+        margin-right: 211vw;
+    }
+    .txt1 {
+        width: 80vw;
+    }
+    .txt2 {
+        width: 80vw;
+    }
+    #login1_submit_btn {
+        width: 80vw;
+    }
+}
+
+
+/* login 3 */
+
+.Login3_txt1 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin: 0 auto;
+    padding-top: 10vh;
+    width: 90vw;
+    font-weight: 400;
+}
+
+strong {
+    font-weight: bolder;
+}
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.option {
+    width: 40vw;
+    height: 12vh;
+    background-color: #f3f3f3;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border-radius: 20px;
+    text-align: center;
+    margin: 1.5vh;
+    cursor: pointer;
+    flex-basis: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selected {
+    background-color: #ffeadd;
+}
+
+#SelectclearBtn {
+    padding: 2.3vh;
+    font-size: 1.25rem;
+    background-color: #313030;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-bottom: 10vh;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 6vh;
+}
+
+#SelectclearBtn:disabled {
+    background-color: grey;
+    color: white;
+    border: 2px solid grey;
+}
+
+@media (min-width: 768px) {
+    .options {
+        width: 30vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        margin: 0 auto;
+    }
+    #SelectclearBtn {
+        width: 20vw;
+        cursor: pointer;
+    }
+}
