@@ -14,8 +14,7 @@ const Login1 = () => {
       <div className="container">
         <div className="maintxt">
           <p className="txt1">
-            우리에게 주어진<br></br>공평한 하루
-          </p>
+            우리에게 주어진<br></br>공평한 하루</p>
           <p className="txt2">
             남에게 있는 것을 바라보는 것이 아닌,<br></br> 나에게 주어진 것에
             감사하는 마음
